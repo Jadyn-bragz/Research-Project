@@ -2,3 +2,18 @@
 .git-backup/
 *.tar
 *.zip
+
+# Experiment outputs
+SageMaker_VisDrone_OVD_2026/results/
+SageMaker_VisDrone_OVD_2026/outputs/
+
+# Large archives
+*.tar
+*.zip
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
