@@ -1,0 +1,1853 @@
+{
+  "run_id": "20261008T163054Z_73692224",
+  "run_mode": "full",
+  "protocol_dataset_id": "738dce9e1a5440dab34195418a997a20",
+  "protocol_fingerprint": "158cb2c904016fa324c236b998393b1a94c176a4eabedb159c76bdeffc66c195",
+  "clearml_task_id": "e4969168f378468ea4ee70d71787e30e",
+  "local_weights_dir": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224",
+  "local_results_dir": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224",
+  "inventory_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/local_inventory.json",
+  "objects": {
+    "weights": {
+      "pretrained.pt": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/pretrained.pt",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/pretrained.pt",
+        "bytes": 25923032,
+        "sha256": "9b2c17ab6124a913e9b3a5c170617920d91b0f01111a8479da69f00e2cf27792"
+      },
+      "train_overlap_10_best.pt": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_10_best.pt",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_10_best.pt",
+        "bytes": 25877448,
+        "sha256": "74a2ae3f087e38a4e3e6838c6a07a79100423a8fa2fe2e5c9cea00c8c1a59830"
+      },
+      "train_overlap_10_last.pt": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_10_last.pt",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_10_last.pt",
+        "bytes": 25877448,
+        "sha256": "906d7a36dbc012eed9d104aab80170c6201ca10de71140b6b16248c29a9c7d16"
+      },
+      "train_overlap_20_best.pt": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_20_best.pt",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_20_best.pt",
+        "bytes": 25877448,
+        "sha256": "5f965ec863f94c9dafe233d7ac9f344b8573648ce146fa7bb217ef8965ab09ca"
+      },
+      "train_overlap_20_last.pt": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_20_last.pt",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_20_last.pt",
+        "bytes": 25877448,
+        "sha256": "71130a59c0ba48e2b6c6f200cbb0217c9261de2689de55a21bfaec24edd0dfc2"
+      },
+      "train_overlap_30_best.pt": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_30_best.pt",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_30_best.pt",
+        "bytes": 25877448,
+        "sha256": "0592caf06cbcda1c79ee67576427734b82eade68822ffcb4d750a9e6229a6fbd"
+      },
+      "train_overlap_30_last.pt": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_30_last.pt",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_30_last.pt",
+        "bytes": 25877448,
+        "sha256": "c2f403b044666011fdbc0b7179896ecc99cd1acf57274af69f0e96a43a7e372f"
+      },
+      "train_overlap_40_best.pt": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_40_best.pt",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_40_best.pt",
+        "bytes": 25877448,
+        "sha256": "a02d41f0905228d6dbb3638d52b051822891ad4b60da0e67e4d5c649fd5cd44e"
+      },
+      "train_overlap_40_last.pt": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_40_last.pt",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_40_last.pt",
+        "bytes": 25877448,
+        "sha256": "197a6db420be5f74bf62c2237ca1c05fa3d46d28ac99dd1a0cacc3bb1e87fdd9"
+      },
+      "train_overlap_50_best.pt": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_50_best.pt",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_50_best.pt",
+        "bytes": 25877448,
+        "sha256": "5d03bd3e80cfa3d3cadce6e8ee0ca843f0cd8e539dd8cccb48d124a3aba4affd"
+      },
+      "train_overlap_50_last.pt": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_50_last.pt",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_50_last.pt",
+        "bytes": 25877448,
+        "sha256": "5f6bcbdad912d55b31bb37bfa5cc689b9b517fcc8f906812293400867b375d46"
+      }
+    },
+    "results": {
+      "training_history_overlap_10.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/training_history_overlap_10.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/training_history_overlap_10.csv",
+        "bytes": 9928,
+        "sha256": "367a2f0f46e9869ec457b1f1c17f830b17f6cbede7e2df57ccf7e49252c037be"
+      },
+      "training_history_overlap_20.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/training_history_overlap_20.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/training_history_overlap_20.csv",
+        "bytes": 9943,
+        "sha256": "a66fc63ac8aaff3dc479fe43045b3fb077883c7b69567ab250bd548f7097faed"
+      },
+      "training_history_overlap_30.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/training_history_overlap_30.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/training_history_overlap_30.csv",
+        "bytes": 9936,
+        "sha256": "0044afdd5208cc60c724be421a9639505085e127181a3bba61a4510f2fd0ec87"
+      },
+      "training_history_overlap_40.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/training_history_overlap_40.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/training_history_overlap_40.csv",
+        "bytes": 9924,
+        "sha256": "35e618fc87ca0200214a2d688f176287788d52d46f270865a45ad423e4814254"
+      },
+      "training_history_overlap_50.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/training_history_overlap_50.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/training_history_overlap_50.csv",
+        "bytes": 9918,
+        "sha256": "68c2a20c8bd8cd8e52815bf6521be928889d11c514af43aa607f6faa306fb01e"
+      },
+      "coco_ground_truth.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/coco_ground_truth.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/coco_ground_truth.json",
+        "bytes": 9368281,
+        "sha256": "59b7bc5eec02286ee57c18bcd8a9064eaceea7ef8806fccf708727cef91fad5a"
+      },
+      "comparison_images_manifest.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/comparison_images_manifest.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/comparison_images_manifest.csv",
+        "bytes": 3173026,
+        "sha256": "e4b9241b859384daffb6f2dd2b20da9b03d0e8933fadef68e09b718d92c8ac40"
+      },
+      "completed_train_overlap_10__eval_overlap_10.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_10__eval_overlap_10.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_10__eval_overlap_10.json",
+        "bytes": 34331,
+        "sha256": "3a4a6cb471b1f121f8350cb688121ab22ad1f62bbc0083bb4fcad5888840b09c"
+      },
+      "completed_train_overlap_10__eval_overlap_20.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_10__eval_overlap_20.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_10__eval_overlap_20.json",
+        "bytes": 34331,
+        "sha256": "c9570b604edcd746e99ac926bc1994c878181906a15f1dbf38847145ddedd9d0"
+      },
+      "completed_train_overlap_10__eval_overlap_30.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_10__eval_overlap_30.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_10__eval_overlap_30.json",
+        "bytes": 34331,
+        "sha256": "33c79260e7826458b59fbccbc9726f901d3b6bac1994b53b62b1a086abada7eb"
+      },
+      "completed_train_overlap_10__eval_overlap_40.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_10__eval_overlap_40.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_10__eval_overlap_40.json",
+        "bytes": 34331,
+        "sha256": "6d533843df4d6da95fd4fe89314e14295f90f6998c5560c5678b8ce9661eec34"
+      },
+      "completed_train_overlap_10__eval_overlap_50.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_10__eval_overlap_50.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_10__eval_overlap_50.json",
+        "bytes": 34331,
+        "sha256": "e3cac44042959113e09046ea75a3eae150e671faf3ed82b56f8c8a22874f2010"
+      },
+      "completed_train_overlap_20__eval_overlap_10.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_20__eval_overlap_10.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_20__eval_overlap_10.json",
+        "bytes": 34331,
+        "sha256": "712e0a1f3648591a6d87c48e212570c41ee50e8ebc6badc925d3cfeabc56b51c"
+      },
+      "completed_train_overlap_20__eval_overlap_20.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_20__eval_overlap_20.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_20__eval_overlap_20.json",
+        "bytes": 34331,
+        "sha256": "25ae17d7ac297895537b000b34fad6075c007841145faf5104f405e3cd5d8228"
+      },
+      "completed_train_overlap_20__eval_overlap_30.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_20__eval_overlap_30.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_20__eval_overlap_30.json",
+        "bytes": 34331,
+        "sha256": "cc329b7225e360f840b87ea4981247cd0df15663b9ae34131c0e58805848a3d4"
+      },
+      "completed_train_overlap_20__eval_overlap_40.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_20__eval_overlap_40.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_20__eval_overlap_40.json",
+        "bytes": 34331,
+        "sha256": "54177a841a12d69d20b133d53c4f4598ebdb545bfe471441b31260065165abb9"
+      },
+      "completed_train_overlap_20__eval_overlap_50.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_20__eval_overlap_50.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_20__eval_overlap_50.json",
+        "bytes": 34331,
+        "sha256": "ec8a4228a3ddc54b79a3a893bb32d43977f5b2253f45244f475797abc388e310"
+      },
+      "completed_train_overlap_30__eval_overlap_10.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_30__eval_overlap_10.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_30__eval_overlap_10.json",
+        "bytes": 34331,
+        "sha256": "8df3a18d48c865e23f1558ff194ede94a5095e4e7f7e48f84501a55e6a2728ba"
+      },
+      "completed_train_overlap_30__eval_overlap_20.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_30__eval_overlap_20.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_30__eval_overlap_20.json",
+        "bytes": 34331,
+        "sha256": "25111b7dd54f0be1861b0ea89c90e2f35b6d7dffd090976ae1c3252438f92554"
+      },
+      "completed_train_overlap_30__eval_overlap_30.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_30__eval_overlap_30.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_30__eval_overlap_30.json",
+        "bytes": 34331,
+        "sha256": "95f9ff0cd661dccc7bf24e067a62149dbb246ca5e3a2254402def39d4d3ea615"
+      },
+      "completed_train_overlap_30__eval_overlap_40.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_30__eval_overlap_40.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_30__eval_overlap_40.json",
+        "bytes": 34331,
+        "sha256": "f6341f8415f3d498822cc6a096118a05c3349a7f6458a0b2cae5c235ffd847cd"
+      },
+      "completed_train_overlap_30__eval_overlap_50.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_30__eval_overlap_50.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_30__eval_overlap_50.json",
+        "bytes": 34331,
+        "sha256": "2b65c7e3925506ae4e35df3366d5bfacaeda7b6d0372a27cc5f648fddf20a37e"
+      },
+      "completed_train_overlap_40__eval_overlap_10.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_40__eval_overlap_10.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_40__eval_overlap_10.json",
+        "bytes": 34331,
+        "sha256": "ded1b2a4c7a4af453638edeba9fc618087a2b71f7b95780e2a8199240e73f11f"
+      },
+      "completed_train_overlap_40__eval_overlap_20.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_40__eval_overlap_20.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_40__eval_overlap_20.json",
+        "bytes": 34331,
+        "sha256": "c9f0d05b51602dd631073159953f8beb0fbd8a173eef3fee31228e5454bc1c43"
+      },
+      "completed_train_overlap_40__eval_overlap_30.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_40__eval_overlap_30.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_40__eval_overlap_30.json",
+        "bytes": 34331,
+        "sha256": "956417b96409cf517905912df421b8b54d3b05372afc3ce2fcbecb607f43d7ff"
+      },
+      "completed_train_overlap_40__eval_overlap_40.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_40__eval_overlap_40.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_40__eval_overlap_40.json",
+        "bytes": 34331,
+        "sha256": "0c18e3a0044c21c23618580bb74db7d82601dc8cf9508e697e24ec17259a17c8"
+      },
+      "completed_train_overlap_40__eval_overlap_50.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_40__eval_overlap_50.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_40__eval_overlap_50.json",
+        "bytes": 34331,
+        "sha256": "d06f44a8d350e091ff5666b9887e653a939ca14dee2a88c8c15b08cb06a24625"
+      },
+      "completed_train_overlap_50__eval_overlap_10.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_50__eval_overlap_10.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_50__eval_overlap_10.json",
+        "bytes": 34331,
+        "sha256": "a4f8fb20292786a0781886608243ff5711fca64ff832d29689c031b442bf4ea7"
+      },
+      "completed_train_overlap_50__eval_overlap_20.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_50__eval_overlap_20.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_50__eval_overlap_20.json",
+        "bytes": 34331,
+        "sha256": "4bce03fd1526dc072c95d7669307a5598d02e7c1a931de1f83be10a6b039d5f4"
+      },
+      "completed_train_overlap_50__eval_overlap_30.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_50__eval_overlap_30.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_50__eval_overlap_30.json",
+        "bytes": 34331,
+        "sha256": "38509550a4bf56e5802f814f174684fc57a322fafa2d363d7f299f6a09dc33a4"
+      },
+      "completed_train_overlap_50__eval_overlap_40.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_50__eval_overlap_40.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_50__eval_overlap_40.json",
+        "bytes": 34331,
+        "sha256": "aecf216172fef6b56fb95ed16127484e5338a8ded907dfa65e3d00f927548579"
+      },
+      "completed_train_overlap_50__eval_overlap_50.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_50__eval_overlap_50.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/completed_train_overlap_50__eval_overlap_50.json",
+        "bytes": 34331,
+        "sha256": "b69586b7bfcfc9c60a0dfbe731e4a62f8b2eb5bc17e5caeeab56998d66a40fd5"
+      },
+      "config_and_protocol.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/config_and_protocol.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/config_and_protocol.json",
+        "bytes": 227697,
+        "sha256": "32dff8fadf2f7f677e80f889c0f455c8b69dafaa93e2cbf83720302349eb76df"
+      },
+      "latency_train_overlap_10__eval_overlap_10.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_10__eval_overlap_10.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_10__eval_overlap_10.json",
+        "bytes": 68812,
+        "sha256": "1d58d0d043298bc02a697d96a064bd0c9cb3d07b9b6862e1192f42c47cefb2a3"
+      },
+      "latency_train_overlap_10__eval_overlap_20.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_10__eval_overlap_20.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_10__eval_overlap_20.json",
+        "bytes": 68822,
+        "sha256": "3bd780af9b1de56a9d56889c5a4952602f11afc8462f83e83f0f9f4eabf2f947"
+      },
+      "latency_train_overlap_10__eval_overlap_30.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_10__eval_overlap_30.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_10__eval_overlap_30.json",
+        "bytes": 68803,
+        "sha256": "e918429f6fbef68586f20090cfc0c4f21e21d63db206bea01fda77c3852b8c44"
+      },
+      "latency_train_overlap_10__eval_overlap_40.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_10__eval_overlap_40.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_10__eval_overlap_40.json",
+        "bytes": 68768,
+        "sha256": "cb1eee65fb77f153dd9d5e15833b48b38eb42352df7f92fe8bd6aeecaa322c44"
+      },
+      "latency_train_overlap_10__eval_overlap_50.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_10__eval_overlap_50.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_10__eval_overlap_50.json",
+        "bytes": 68812,
+        "sha256": "76f104d1eb8124ff654d9bf71a46ca3e1c8b2980244f4e799c235df605fb7d3d"
+      },
+      "latency_train_overlap_20__eval_overlap_10.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_20__eval_overlap_10.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_20__eval_overlap_10.json",
+        "bytes": 68820,
+        "sha256": "5f8b5265c26bbefc380f75e35170e8aad49bed3be05f1cbe544ed05ba20bf3dc"
+      },
+      "latency_train_overlap_20__eval_overlap_20.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_20__eval_overlap_20.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_20__eval_overlap_20.json",
+        "bytes": 68821,
+        "sha256": "3a293345501e048154e7002fdbbecdfafa393d016bd168a661e0d13210a6493c"
+      },
+      "latency_train_overlap_20__eval_overlap_30.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_20__eval_overlap_30.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_20__eval_overlap_30.json",
+        "bytes": 68816,
+        "sha256": "8585f3cf19e6a42074c7054f73cf30e2be577eea9c04b41e17968b7f26daf4fa"
+      },
+      "latency_train_overlap_20__eval_overlap_40.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_20__eval_overlap_40.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_20__eval_overlap_40.json",
+        "bytes": 68752,
+        "sha256": "c62b84d2174e310f6e83ddc284feedeeb8b6c616b9dabe7379f27c042e078527"
+      },
+      "latency_train_overlap_20__eval_overlap_50.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_20__eval_overlap_50.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_20__eval_overlap_50.json",
+        "bytes": 68772,
+        "sha256": "48aab07b843aa0f869e788337d8c3af924b2e8618dfc51a59f841baa70c0b159"
+      },
+      "latency_train_overlap_30__eval_overlap_10.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_30__eval_overlap_10.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_30__eval_overlap_10.json",
+        "bytes": 68773,
+        "sha256": "b790e949a76387b1fe7a283e374e81012cb6afbfabe5cfc585b86690eeaa4ed3"
+      },
+      "latency_train_overlap_30__eval_overlap_20.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_30__eval_overlap_20.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_30__eval_overlap_20.json",
+        "bytes": 68818,
+        "sha256": "4c7d5b2dd83f59cefae588d64ec4203eadd7ebb44b8658dd712d141efaa23f7f"
+      },
+      "latency_train_overlap_30__eval_overlap_30.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_30__eval_overlap_30.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_30__eval_overlap_30.json",
+        "bytes": 68811,
+        "sha256": "4b0a7c0ec60da7d4b40814c9caf26c2b89f19570fda150f4709832fc0b34efd3"
+      },
+      "latency_train_overlap_30__eval_overlap_40.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_30__eval_overlap_40.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_30__eval_overlap_40.json",
+        "bytes": 68748,
+        "sha256": "39a0ec7d433f323d51d03c18639b11409052740e84454f548d61bb81890e8fd5"
+      },
+      "latency_train_overlap_30__eval_overlap_50.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_30__eval_overlap_50.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_30__eval_overlap_50.json",
+        "bytes": 68799,
+        "sha256": "db2ab5cf57cff65e4a4208cc2d2b8407b593aeaab2aae3df537e7c385f3c702b"
+      },
+      "latency_train_overlap_40__eval_overlap_10.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_40__eval_overlap_10.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_40__eval_overlap_10.json",
+        "bytes": 68787,
+        "sha256": "cd4d5e7891fed614a50d22e3ba1465f62391eb567b76180b3b2ef41269cffd63"
+      },
+      "latency_train_overlap_40__eval_overlap_20.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_40__eval_overlap_20.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_40__eval_overlap_20.json",
+        "bytes": 68803,
+        "sha256": "0afa3e8ed0bfd7674b0bf9cc86e02ca62cd121d029b867dad4eba1699a723897"
+      },
+      "latency_train_overlap_40__eval_overlap_30.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_40__eval_overlap_30.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_40__eval_overlap_30.json",
+        "bytes": 68812,
+        "sha256": "ef50e68856dcb21d81acd33be4ae0975dd204af7a21b06c84d934977010738bf"
+      },
+      "latency_train_overlap_40__eval_overlap_40.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_40__eval_overlap_40.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_40__eval_overlap_40.json",
+        "bytes": 68768,
+        "sha256": "7c7b8ff7e230085abbf9cd1b51cc3907f39ed5167e10638d70af675cbec5e030"
+      },
+      "latency_train_overlap_40__eval_overlap_50.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_40__eval_overlap_50.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_40__eval_overlap_50.json",
+        "bytes": 68780,
+        "sha256": "28fbe9687ffd18ce8ea0eddfce6271e1ea0ac66701697318027cac2cddf7f3f5"
+      },
+      "latency_train_overlap_50__eval_overlap_10.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_50__eval_overlap_10.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_50__eval_overlap_10.json",
+        "bytes": 68773,
+        "sha256": "f90791149f10731c37f8bd39d7adf936957d04d5b5750a4566cc0e4472b0e601"
+      },
+      "latency_train_overlap_50__eval_overlap_20.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_50__eval_overlap_20.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_50__eval_overlap_20.json",
+        "bytes": 68812,
+        "sha256": "c9f767bcaf6f4f100ffd86e86b7c3b3db65f953a3ab11021080830d377cc3621"
+      },
+      "latency_train_overlap_50__eval_overlap_30.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_50__eval_overlap_30.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_50__eval_overlap_30.json",
+        "bytes": 68814,
+        "sha256": "fda856d44aea271dbc53db4761c347b66444b57d3a2c26a55e0c59debd788769"
+      },
+      "latency_train_overlap_50__eval_overlap_40.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_50__eval_overlap_40.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_50__eval_overlap_40.json",
+        "bytes": 68766,
+        "sha256": "743177548f6e6ea1adb1f71320ffb400235b47c8d95d5f7ffed09bf8728484be"
+      },
+      "latency_train_overlap_50__eval_overlap_50.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_50__eval_overlap_50.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/latency_train_overlap_50__eval_overlap_50.json",
+        "bytes": 68786,
+        "sha256": "73a6646da9b7039e91cf432680d03cc2ea0d952cb6e1d896bc0fa2ef16679e66"
+      },
+      "object_counts_per_image.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_per_image.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_per_image.csv",
+        "bytes": 1775607,
+        "sha256": "9c2a7af04837966f2e4faa7a9a977abd81a684e5f0a8f6764d18645f9a664e17"
+      },
+      "object_counts_train_overlap_10__eval_overlap_10.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_10__eval_overlap_10.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_10__eval_overlap_10.csv",
+        "bytes": 48058,
+        "sha256": "608c1e4d9204e37dc04d17437fe2e0c80b4a5aff3c982f3b74f8e1a612e3ac07"
+      },
+      "object_counts_train_overlap_10__eval_overlap_20.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_10__eval_overlap_20.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_10__eval_overlap_20.csv",
+        "bytes": 48206,
+        "sha256": "6b9f009e9765331ed760a085fa3e5ae71d9d00704b20373f592b1953c9ec87ee"
+      },
+      "object_counts_train_overlap_10__eval_overlap_30.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_10__eval_overlap_30.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_10__eval_overlap_30.csv",
+        "bytes": 48101,
+        "sha256": "5e4097235620a0f7b82dd2256bac84257d8d643462d91c28a3b728702adb4cc8"
+      },
+      "object_counts_train_overlap_10__eval_overlap_40.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_10__eval_overlap_40.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_10__eval_overlap_40.csv",
+        "bytes": 48159,
+        "sha256": "2a0857d8978ce7918a50699a3a5fef81af13d8feac72ca00c9068bd9218dae75"
+      },
+      "object_counts_train_overlap_10__eval_overlap_50.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_10__eval_overlap_50.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_10__eval_overlap_50.csv",
+        "bytes": 48222,
+        "sha256": "12237d21e11059dd4da9bf0c2ac5d256436eb2532cd25cab0a1f2e1862773dcb"
+      },
+      "object_counts_train_overlap_20__eval_overlap_10.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_20__eval_overlap_10.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_20__eval_overlap_10.csv",
+        "bytes": 48166,
+        "sha256": "db0a5547d764d862ea219b836829b4c5c303f86fceca6736dbeddc5bef5cc82a"
+      },
+      "object_counts_train_overlap_20__eval_overlap_20.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_20__eval_overlap_20.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_20__eval_overlap_20.csv",
+        "bytes": 48161,
+        "sha256": "cdf96feaaf30aa6157fb9eff484d543e8a6b73dc0e007dd314cc71331ad1093a"
+      },
+      "object_counts_train_overlap_20__eval_overlap_30.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_20__eval_overlap_30.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_20__eval_overlap_30.csv",
+        "bytes": 48167,
+        "sha256": "e91115bfa4a16b76bb8c402defea9f2e778cc15bee8e511465ec8927d6d1567a"
+      },
+      "object_counts_train_overlap_20__eval_overlap_40.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_20__eval_overlap_40.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_20__eval_overlap_40.csv",
+        "bytes": 48023,
+        "sha256": "98745ad3eeb4e6e0386768471d15c5b042bdb0d5f459468763df0f08762a7d68"
+      },
+      "object_counts_train_overlap_20__eval_overlap_50.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_20__eval_overlap_50.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_20__eval_overlap_50.csv",
+        "bytes": 48323,
+        "sha256": "cfdef86b6554052e89e29166310e9a2e4245930c1827646135d6bba2379359a5"
+      },
+      "object_counts_train_overlap_30__eval_overlap_10.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_30__eval_overlap_10.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_30__eval_overlap_10.csv",
+        "bytes": 47946,
+        "sha256": "8acebc38cc954d67dcf3e407fad7a5c2cefb7aa97dc1b013c863a062041611fd"
+      },
+      "object_counts_train_overlap_30__eval_overlap_20.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_30__eval_overlap_20.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_30__eval_overlap_20.csv",
+        "bytes": 48112,
+        "sha256": "6b3f59c7797fc5e6328afe91adb1a2e97d27848a111673abd3c72149b55ed6c7"
+      },
+      "object_counts_train_overlap_30__eval_overlap_30.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_30__eval_overlap_30.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_30__eval_overlap_30.csv",
+        "bytes": 48145,
+        "sha256": "0e879e82bf0bc326cee453b5ecfc182824c3790ccc870aa9c1f6ad5f3b9aa65a"
+      },
+      "object_counts_train_overlap_30__eval_overlap_40.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_30__eval_overlap_40.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_30__eval_overlap_40.csv",
+        "bytes": 48088,
+        "sha256": "a7fadddd955ee8af0ba2e13245886c4af1fa031b0de6027115a05eafb2a41259"
+      },
+      "object_counts_train_overlap_30__eval_overlap_50.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_30__eval_overlap_50.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_30__eval_overlap_50.csv",
+        "bytes": 48303,
+        "sha256": "fa8fdeceecbaef9e6817162701ae8de5f6834ff30f2599428aa8e3acea7f048a"
+      },
+      "object_counts_train_overlap_40__eval_overlap_10.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_40__eval_overlap_10.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_40__eval_overlap_10.csv",
+        "bytes": 48101,
+        "sha256": "53ddaef321b769eef14cba7d8aab26d2b7f94a700ff4833568a6c45a108e19e3"
+      },
+      "object_counts_train_overlap_40__eval_overlap_20.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_40__eval_overlap_20.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_40__eval_overlap_20.csv",
+        "bytes": 48213,
+        "sha256": "0d45677e458ea1495a3c18ad07bad9c3c633d96ec7bd5f187a777c2f09f84786"
+      },
+      "object_counts_train_overlap_40__eval_overlap_30.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_40__eval_overlap_30.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_40__eval_overlap_30.csv",
+        "bytes": 48148,
+        "sha256": "998e505d14e6ff81ccffed141b5296f779d44681cb90e449b334de472804ca0b"
+      },
+      "object_counts_train_overlap_40__eval_overlap_40.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_40__eval_overlap_40.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_40__eval_overlap_40.csv",
+        "bytes": 48177,
+        "sha256": "30910d1bac1617d7f792638930e0ae61a1034d93dee9061b1f538ff1626cef75"
+      },
+      "object_counts_train_overlap_40__eval_overlap_50.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_40__eval_overlap_50.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_40__eval_overlap_50.csv",
+        "bytes": 48148,
+        "sha256": "1a9feeada8096e9c2f26b2c412bb93a682aadd5cdbbc8efb930a0d842baa50b7"
+      },
+      "object_counts_train_overlap_50__eval_overlap_10.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_50__eval_overlap_10.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_50__eval_overlap_10.csv",
+        "bytes": 47962,
+        "sha256": "716d721e75a9a2ba9342d0059b77ef6268970b580fe589f6f6615dcb465fbc67"
+      },
+      "object_counts_train_overlap_50__eval_overlap_20.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_50__eval_overlap_20.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_50__eval_overlap_20.csv",
+        "bytes": 48137,
+        "sha256": "90c93cacf4b6949ce7366002d4d60684c1ed8fb4f5b2909b273469804b27c048"
+      },
+      "object_counts_train_overlap_50__eval_overlap_30.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_50__eval_overlap_30.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_50__eval_overlap_30.csv",
+        "bytes": 48189,
+        "sha256": "f7d34e87e4bffbbdc1a4a1a4e2600965c5946e29ea07570e0c33cd9143661bf6"
+      },
+      "object_counts_train_overlap_50__eval_overlap_40.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_50__eval_overlap_40.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_50__eval_overlap_40.csv",
+        "bytes": 48090,
+        "sha256": "45f49d64acdca76f94012b2e68882f6fbb923aa43007bba414b9d17805d1ef63"
+      },
+      "object_counts_train_overlap_50__eval_overlap_50.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_50__eval_overlap_50.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/object_counts_train_overlap_50__eval_overlap_50.csv",
+        "bytes": 48185,
+        "sha256": "520313899361a5727673350c1fcd4a96e81e30d1a0c68e93242ce01ef4785eb0"
+      },
+      "overlap_grid_Recall_0.5.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/overlap_grid_Recall_0.5.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/overlap_grid_Recall_0.5.csv",
+        "bytes": 528,
+        "sha256": "bfdd0ffcd49a6f7e8d425c89419f9d360a0a4d1dc2723c3c965ecb6a1fd63a2c"
+      },
+      "overlap_grid_all_AP.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/overlap_grid_all_AP.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/overlap_grid_all_AP.csv",
+        "bytes": 546,
+        "sha256": "42e61bd30a9891be12f763c285f8c0a20d30d743e34c61e6609e242c757a9e6d"
+      },
+      "overlap_grid_all_AP50.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/overlap_grid_all_AP50.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/overlap_grid_all_AP50.csv",
+        "bytes": 539,
+        "sha256": "44dac2d3bff43c049c2316c3addfea224859b48eb01a2a97decf78436c5a8c3d"
+      },
+      "overlap_grid_mean_pipeline_ms.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/overlap_grid_mean_pipeline_ms.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/overlap_grid_mean_pipeline_ms.csv",
+        "bytes": 517,
+        "sha256": "1781d0075c1f164a20581e341beb49883da137605b318640c47a0817428c433c"
+      },
+      "per_class.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/per_class.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/per_class.csv",
+        "bytes": 35653,
+        "sha256": "6e7a8d7556a762086497008f05594798a204f25b5730fb1aae12882a44033906"
+      },
+      "predictions_train_overlap_10__eval_overlap_10.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_10__eval_overlap_10.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_10__eval_overlap_10.json",
+        "bytes": 89331822,
+        "sha256": "70cb23a54b05c183de09f77ce4637b8a93fb08836b04b94c74d77e9d493aa92f"
+      },
+      "predictions_train_overlap_10__eval_overlap_20.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_10__eval_overlap_20.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_10__eval_overlap_20.json",
+        "bytes": 90602588,
+        "sha256": "d26c523ecafac9eadf981b18dfed5d13db3d190f7aa83321aa9c5a5eaf3dd727"
+      },
+      "predictions_train_overlap_10__eval_overlap_30.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_10__eval_overlap_30.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_10__eval_overlap_30.json",
+        "bytes": 91717609,
+        "sha256": "daeeb1d2000478094cc9fa7687def6b58bf965e38cffda1e328cb8476729aba6"
+      },
+      "predictions_train_overlap_10__eval_overlap_40.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_10__eval_overlap_40.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_10__eval_overlap_40.json",
+        "bytes": 93950331,
+        "sha256": "1fd029230c1d8965179b4f90216ec1d263423a49620fbf09f122e0ad7a9a322a"
+      },
+      "predictions_train_overlap_10__eval_overlap_50.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_10__eval_overlap_50.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_10__eval_overlap_50.json",
+        "bytes": 94974609,
+        "sha256": "d76b247c5b180ae6980542a7e23d5d709aaad7c5a543667675a9ad8f45476445"
+      },
+      "predictions_train_overlap_20__eval_overlap_10.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_20__eval_overlap_10.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_20__eval_overlap_10.json",
+        "bytes": 90401586,
+        "sha256": "6c710eac02a97450c8bf2e602eec4298849e1d97793c58332c084e31eed27272"
+      },
+      "predictions_train_overlap_20__eval_overlap_20.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_20__eval_overlap_20.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_20__eval_overlap_20.json",
+        "bytes": 91501210,
+        "sha256": "75685dc3aa41a4b7c05bb2afb9404f8832e3f88434f94c35eb0f33ae92ea41c3"
+      },
+      "predictions_train_overlap_20__eval_overlap_30.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_20__eval_overlap_30.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_20__eval_overlap_30.json",
+        "bytes": 92647138,
+        "sha256": "08ee391cfbd83845ac22f221e0d3846aa8ff1b1cd2612801f78ab5fac3fa45a7"
+      },
+      "predictions_train_overlap_20__eval_overlap_40.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_20__eval_overlap_40.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_20__eval_overlap_40.json",
+        "bytes": 95352170,
+        "sha256": "ecc2d28751fbbdb1d09d04e547d3283cae9b9da3f748705f833cba9c6ad8e7f0"
+      },
+      "predictions_train_overlap_20__eval_overlap_50.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_20__eval_overlap_50.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_20__eval_overlap_50.json",
+        "bytes": 96045495,
+        "sha256": "4f148f4d91e249d63d43dbc7593c3a0b0e401e75be3ead155f50476a711051c9"
+      },
+      "predictions_train_overlap_30__eval_overlap_10.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_30__eval_overlap_10.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_30__eval_overlap_10.json",
+        "bytes": 87278861,
+        "sha256": "c6dcf7d57888c832ed8952a5b86fe73244064faa1ab01ea47e283d333f3f8154"
+      },
+      "predictions_train_overlap_30__eval_overlap_20.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_30__eval_overlap_20.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_30__eval_overlap_20.json",
+        "bytes": 89041076,
+        "sha256": "7d9a5f964da485bf958ef5a6ace0cb21dd77134187807be9e28f3d9710324129"
+      },
+      "predictions_train_overlap_30__eval_overlap_30.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_30__eval_overlap_30.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_30__eval_overlap_30.json",
+        "bytes": 90233440,
+        "sha256": "c3f4af69103ea2725a7b3bf0e9b67378fca87cbd915a23f0bfc848d47052f073"
+      },
+      "predictions_train_overlap_30__eval_overlap_40.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_30__eval_overlap_40.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_30__eval_overlap_40.json",
+        "bytes": 92680210,
+        "sha256": "b91e2c116d01b3b4b45b70403e34234400ff4fe6105b55c46efc7a333612b12f"
+      },
+      "predictions_train_overlap_30__eval_overlap_50.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_30__eval_overlap_50.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_30__eval_overlap_50.json",
+        "bytes": 93641248,
+        "sha256": "ca34c79ed3160fbc8cac484c18586e87297391c570cb71c7636511d808a787d4"
+      },
+      "predictions_train_overlap_40__eval_overlap_10.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_40__eval_overlap_10.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_40__eval_overlap_10.json",
+        "bytes": 86973613,
+        "sha256": "e3e17a81cb9097916c3a9a0af3255343062d842aa0b0cc67d7868e0e3558f269"
+      },
+      "predictions_train_overlap_40__eval_overlap_20.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_40__eval_overlap_20.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_40__eval_overlap_20.json",
+        "bytes": 88565192,
+        "sha256": "6eb83b4566520d45b2ee3814824a5fda738dc543e3434a83a14ae4d6f4a96298"
+      },
+      "predictions_train_overlap_40__eval_overlap_30.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_40__eval_overlap_30.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_40__eval_overlap_30.json",
+        "bytes": 89769479,
+        "sha256": "1c0a6b2bf514e4817d71fd9d9f0b417c34a9b774c8d2f2a4096962a6fdd204f4"
+      },
+      "predictions_train_overlap_40__eval_overlap_40.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_40__eval_overlap_40.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_40__eval_overlap_40.json",
+        "bytes": 92451062,
+        "sha256": "52c5388dc9d1e33b042efcf05fde230856845630c8f154d5c81bcdf2504a9a05"
+      },
+      "predictions_train_overlap_40__eval_overlap_50.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_40__eval_overlap_50.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_40__eval_overlap_50.json",
+        "bytes": 93282463,
+        "sha256": "8c207241a2601eebd7d87fb0f519a1467a13c297c90bcedb46b205557876ba9e"
+      },
+      "predictions_train_overlap_50__eval_overlap_10.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_50__eval_overlap_10.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_50__eval_overlap_10.json",
+        "bytes": 82798789,
+        "sha256": "8b28906c794f925d8f2c5c07c0b0ca88f814303d5a42bb50dde49e5133ae0c0b"
+      },
+      "predictions_train_overlap_50__eval_overlap_20.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_50__eval_overlap_20.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_50__eval_overlap_20.json",
+        "bytes": 85059336,
+        "sha256": "20228bfe71b173f6eabbf5c9588b6da922720829a88f77a0ab23cf8e3222a47d"
+      },
+      "predictions_train_overlap_50__eval_overlap_30.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_50__eval_overlap_30.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_50__eval_overlap_30.json",
+        "bytes": 86538700,
+        "sha256": "c8ff897039189ca52294ce42031b2850012aab2617bf497b99379d720f937e31"
+      },
+      "predictions_train_overlap_50__eval_overlap_40.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_50__eval_overlap_40.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_50__eval_overlap_40.json",
+        "bytes": 89631447,
+        "sha256": "8dcac2907959c9edd8ac6a280e4b4ce5b928bdb3121b8120e0ff4e032f311364"
+      },
+      "predictions_train_overlap_50__eval_overlap_50.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_50__eval_overlap_50.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/predictions_train_overlap_50__eval_overlap_50.json",
+        "bytes": 90842309,
+        "sha256": "dd4f9419efdc9c9530cb12f22a24dc04016f9e81153a5c2f4c6f66b6f67daaf2"
+      },
+      "raw_predictions_train_overlap_10__eval_overlap_10.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_10__eval_overlap_10.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_10__eval_overlap_10.json",
+        "bytes": 32114256,
+        "sha256": "68337ff4ab363ce6ff1b72d1b65bb46abc7aef808a8c99d69f14bc70630c12a7"
+      },
+      "raw_predictions_train_overlap_10__eval_overlap_20.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_10__eval_overlap_20.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_10__eval_overlap_20.json",
+        "bytes": 32569486,
+        "sha256": "1f7ef1752425a6a6dfce15121d3fa1b616283e28af72251b556837f3e2ade8a6"
+      },
+      "raw_predictions_train_overlap_10__eval_overlap_30.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_10__eval_overlap_30.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_10__eval_overlap_30.json",
+        "bytes": 32960773,
+        "sha256": "b0b5bb78ebc90af4fd81c066166af3f0ae91af3dd829298a48b5285886ab945d"
+      },
+      "raw_predictions_train_overlap_10__eval_overlap_40.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_10__eval_overlap_40.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_10__eval_overlap_40.json",
+        "bytes": 33747876,
+        "sha256": "42711a139b021fbb9ce99fec506b48b386e42f4a74a70004beccc392ce471359"
+      },
+      "raw_predictions_train_overlap_10__eval_overlap_50.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_10__eval_overlap_50.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_10__eval_overlap_50.json",
+        "bytes": 34102830,
+        "sha256": "e50f3bff992bf48ba6f66b11d520ae8534a555c7e70f112921f4ddea5956e5b0"
+      },
+      "raw_predictions_train_overlap_20__eval_overlap_10.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_20__eval_overlap_10.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_20__eval_overlap_10.json",
+        "bytes": 32502510,
+        "sha256": "ac77e8fdb5ecf9252b421fb8b49f76f77880504cae004d125e1d3a9fc13bfed0"
+      },
+      "raw_predictions_train_overlap_20__eval_overlap_20.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_20__eval_overlap_20.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_20__eval_overlap_20.json",
+        "bytes": 32895219,
+        "sha256": "08b707f49c37bffa62d4c6a21882ff2df19664a6f187fd565eafb48152a85651"
+      },
+      "raw_predictions_train_overlap_20__eval_overlap_30.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_20__eval_overlap_30.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_20__eval_overlap_30.json",
+        "bytes": 33296235,
+        "sha256": "4124ee997d00e421ea6850d91c631abb0d0ac9ed8bdb3a9b4be495ba70ec20dd"
+      },
+      "raw_predictions_train_overlap_20__eval_overlap_40.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_20__eval_overlap_40.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_20__eval_overlap_40.json",
+        "bytes": 34253390,
+        "sha256": "f733f0877920c8f9b397bcb71428b90723ac6ffc51ad88da2dba8c805419f1eb"
+      },
+      "raw_predictions_train_overlap_20__eval_overlap_50.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_20__eval_overlap_50.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_20__eval_overlap_50.json",
+        "bytes": 34490780,
+        "sha256": "ab3e8f84031a79935d87848db481066cb89be945d9c6f62f463de8987ee2bc48"
+      },
+      "raw_predictions_train_overlap_30__eval_overlap_10.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_30__eval_overlap_10.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_30__eval_overlap_10.json",
+        "bytes": 31377732,
+        "sha256": "228bf836eaf6c3f47da55f2b920302a714cd184be553d526cc6cc83e90304b6e"
+      },
+      "raw_predictions_train_overlap_30__eval_overlap_20.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_30__eval_overlap_20.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_30__eval_overlap_20.json",
+        "bytes": 32006121,
+        "sha256": "bc000173442a43fb93ea3a9912c4ec5906c2a3eea74287e76e4cfe0a529a3a82"
+      },
+      "raw_predictions_train_overlap_30__eval_overlap_30.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_30__eval_overlap_30.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_30__eval_overlap_30.json",
+        "bytes": 32424845,
+        "sha256": "c8454145991bb82d33ff53240e9157795bcd44e47fd2f8fd7f3ba96d8a6620a0"
+      },
+      "raw_predictions_train_overlap_30__eval_overlap_40.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_30__eval_overlap_40.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_30__eval_overlap_40.json",
+        "bytes": 33289219,
+        "sha256": "6036caf90d021a1bd6a880c76f8f4833ddcb0b3ff697f3cf09dd99c80c7a86d5"
+      },
+      "raw_predictions_train_overlap_30__eval_overlap_50.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_30__eval_overlap_50.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_30__eval_overlap_50.json",
+        "bytes": 33623754,
+        "sha256": "2376650180e2c18aca54b2a71c76cd7b340595828ebc9b3b9a8156fb6bcc629a"
+      },
+      "raw_predictions_train_overlap_40__eval_overlap_10.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_40__eval_overlap_10.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_40__eval_overlap_10.json",
+        "bytes": 31266286,
+        "sha256": "6be553a5d4e503848f93138aa8980e32a9ba66bf25cea9b819e12a0c54ce7562"
+      },
+      "raw_predictions_train_overlap_40__eval_overlap_20.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_40__eval_overlap_20.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_40__eval_overlap_20.json",
+        "bytes": 31835315,
+        "sha256": "93cdffda35a5851664de0446bee831cd047ad9c4737b350ae82cf4aa5b57158d"
+      },
+      "raw_predictions_train_overlap_40__eval_overlap_30.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_40__eval_overlap_30.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_40__eval_overlap_30.json",
+        "bytes": 32258095,
+        "sha256": "737d08cc40b4f3bd39219b18b4e1b6ea3422a46dc99c924ef9bcf350c616734e"
+      },
+      "raw_predictions_train_overlap_40__eval_overlap_40.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_40__eval_overlap_40.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_40__eval_overlap_40.json",
+        "bytes": 33206119,
+        "sha256": "330885921371cb79e1b93be5c254e5cc8868ea2823e936b2ece898bf3c8478fc"
+      },
+      "raw_predictions_train_overlap_40__eval_overlap_50.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_40__eval_overlap_50.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_40__eval_overlap_50.json",
+        "bytes": 33492551,
+        "sha256": "6bdf08d018e4201fbbebe6987817f44d4d9dd7fca9ce30330d5fc722606c8334"
+      },
+      "raw_predictions_train_overlap_50__eval_overlap_10.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_50__eval_overlap_10.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_50__eval_overlap_10.json",
+        "bytes": 29762222,
+        "sha256": "3058f1427f72bbf46fa5d77c12a68a0b73df72c66b337413ca30b095b694dbef"
+      },
+      "raw_predictions_train_overlap_50__eval_overlap_20.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_50__eval_overlap_20.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_50__eval_overlap_20.json",
+        "bytes": 30572094,
+        "sha256": "8a56d6b3f7d9205bb78f02b57f377dbcf6cce1d4e4765a839d1fb1f1487a9d55"
+      },
+      "raw_predictions_train_overlap_50__eval_overlap_30.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_50__eval_overlap_30.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_50__eval_overlap_30.json",
+        "bytes": 31092992,
+        "sha256": "6aa5910b167f8a10ba17908128d3244dda04f19ed3797f9cff926c068d2f6264"
+      },
+      "raw_predictions_train_overlap_50__eval_overlap_40.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_50__eval_overlap_40.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_50__eval_overlap_40.json",
+        "bytes": 32189325,
+        "sha256": "4d632475ba19999d45420930682a1c76a1a975760bd7217861fbabf565c3c726"
+      },
+      "raw_predictions_train_overlap_50__eval_overlap_50.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_50__eval_overlap_50.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/raw_predictions_train_overlap_50__eval_overlap_50.json",
+        "bytes": 32611908,
+        "sha256": "426fb6cc820eb6f7ac5b79d98232a13ac97c098a9c7de03725464d9f0021f859"
+      },
+      "robustness.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/robustness.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/robustness.csv",
+        "bytes": 14490,
+        "sha256": "cbe0f9f008df36f5e8bbea369ea4e9d1fba813ecc949aa3a92e8a428fcaad9a9"
+      },
+      "size_bins.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/size_bins.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/size_bins.csv",
+        "bytes": 11313,
+        "sha256": "4391b0a5e8c38eb35bdf64827e5ce1779933cee08a9fbd3c4c071bf76aac52a2"
+      },
+      "summary.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/summary.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/summary.csv",
+        "bytes": 12534,
+        "sha256": "8a17dff25607952a8e3f0ead76485587b4a33e3c041d81cc591059bccf67c37d"
+      },
+      "training_runs.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/training_runs.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/training_runs.json",
+        "bytes": 3688,
+        "sha256": "48738d263ea3634211a635b6ec4cd605ce73bd1342b1acc3218cbecd3fee662c"
+      },
+      "training_views.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/training_views.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/training_views.csv",
+        "bytes": 1461,
+        "sha256": "058e1bd741565147adb07e8a4a4406b3ad7ff3441727af8fc35093a3045f04ae"
+      }
+    }
+  },
+  "comparison_images": {
+    "root": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/comparisons",
+    "count": 13700,
+    "manifest": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261008T163054Z_73692224/comparison_images_manifest.csv"
+  },
+  "all_metrics": [
+    {
+      "condition": "train_overlap_10__eval_overlap_10",
+      "train_overlap": 0.1,
+      "eval_overlap": 0.1,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.1563977031480859,
+      "all_AP50": 0.27648686600969385,
+      "all_AR500": 0.2724412920734525,
+      "base_AP": 0.22337581726167066,
+      "base_AP50": 0.3949159559033053,
+      "base_AR500": 0.3886003420598194,
+      "novel_AP": 0.0001154368830548213,
+      "novel_AP50": 0.00015232292460015234,
+      "novel_AR500": 0.0014035087719298242,
+      "TP": 20039,
+      "FP": 15502,
+      "FN": 18720,
+      "Precision@0.5": 0.5638276919613967,
+      "Recall@0.5": 0.5170154028741711,
+      "F1@0.5": 0.5394078061911171,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 35541,
+      "correctly_detected_objects": 20039,
+      "missed_objects": 18720,
+      "false_positive_objects": 15502,
+      "object_detection_rate": 0.5170154028741711,
+      "mean_pipeline_ms": 1254.1188724491112,
+      "median_pipeline_ms": 1156.5006665186957,
+      "p95_pipeline_ms": 2311.3458618288855,
+      "fps_from_pipeline_mean": 0.7973725792413489,
+      "mean_tiles": 22.740875912408757
+    },
+    {
+      "condition": "train_overlap_10__eval_overlap_20",
+      "train_overlap": 0.1,
+      "eval_overlap": 0.2,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.16063991153812596,
+      "all_AP50": 0.27987802014725,
+      "all_AR500": 0.27722677908752213,
+      "base_AP": 0.22942659277410654,
+      "base_AP50": 0.3997512995329211,
+      "base_AR500": 0.3955871280197685,
+      "novel_AP": 0.0001376553208379975,
+      "novel_AP50": 0.0001737015806843842,
+      "novel_AR500": 0.0010526315789473684,
+      "TP": 20174,
+      "FP": 16153,
+      "FN": 18585,
+      "Precision@0.5": 0.5553445095934154,
+      "Recall@0.5": 0.5204984648726747,
+      "F1@0.5": 0.5373571637855259,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 36327,
+      "correctly_detected_objects": 20174,
+      "missed_objects": 18585,
+      "false_positive_objects": 16153,
+      "object_detection_rate": 0.5204984648726747,
+      "mean_pipeline_ms": 1483.1200116048449,
+      "median_pipeline_ms": 1363.9841209514998,
+      "p95_pipeline_ms": 2936.9878098776094,
+      "fps_from_pipeline_mean": 0.6742542694963212,
+      "mean_tiles": 26.23905109489051
+    },
+    {
+      "condition": "train_overlap_10__eval_overlap_30",
+      "train_overlap": 0.1,
+      "eval_overlap": 0.3,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.15938474484493825,
+      "all_AP50": 0.27946055188803426,
+      "all_AR500": 0.27613649330964213,
+      "base_AP": 0.22766055770392035,
+      "base_AP50": 0.399162006165906,
+      "base_AR500": 0.3941662823083746,
+      "novel_AP": 7.451484064662624e-05,
+      "novel_AP50": 0.00015715857300015716,
+      "novel_AR500": 0.0007336523125996811,
+      "TP": 20219,
+      "FP": 16769,
+      "FN": 18540,
+      "Precision@0.5": 0.5466367470530983,
+      "Recall@0.5": 0.5216594855388426,
+      "F1@0.5": 0.5338561263152335,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 36988,
+      "correctly_detected_objects": 20219,
+      "missed_objects": 18540,
+      "false_positive_objects": 16769,
+      "object_detection_rate": 0.5216594855388426,
+      "mean_pipeline_ms": 1703.3275337265227,
+      "median_pipeline_ms": 1578.7915510009043,
+      "p95_pipeline_ms": 3352.715335594257,
+      "fps_from_pipeline_mean": 0.5870861476724973,
+      "mean_tiles": 29.425182481751825
+    },
+    {
+      "condition": "train_overlap_10__eval_overlap_40",
+      "train_overlap": 0.1,
+      "eval_overlap": 0.4,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.1540965027475634,
+      "all_AP50": 0.2734182900607056,
+      "all_AR500": 0.2749627773972183,
+      "base_AP": 0.22011946484786532,
+      "base_AP50": 0.39056305900623794,
+      "base_AR500": 0.39246220421065353,
+      "novel_AP": 4.292451352548447e-05,
+      "novel_AP50": 8.049585446349514e-05,
+      "novel_AR500": 0.0007974481658692184,
+      "TP": 20341,
+      "FP": 19048,
+      "FN": 18418,
+      "Precision@0.5": 0.5164132118104039,
+      "Recall@0.5": 0.5248071415671199,
+      "F1@0.5": 0.5205763423248196,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 39389,
+      "correctly_detected_objects": 20341,
+      "missed_objects": 18418,
+      "false_positive_objects": 19048,
+      "object_detection_rate": 0.5248071415671199,
+      "mean_pipeline_ms": 2377.8760958801577,
+      "median_pipeline_ms": 2215.473433956504,
+      "p95_pipeline_ms": 4835.028465645155,
+      "fps_from_pipeline_mean": 0.42054335872780435,
+      "mean_tiles": 40.39051094890511
+    },
+    {
+      "condition": "train_overlap_10__eval_overlap_50",
+      "train_overlap": 0.1,
+      "eval_overlap": 0.5,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.14962758602877396,
+      "all_AP50": 0.27001066075507824,
+      "all_AR500": 0.27132681355892213,
+      "base_AP": 0.21372679557680424,
+      "base_AP50": 0.3856771291733975,
+      "base_AR500": 0.3871586058360542,
+      "novel_AP": 6.27637500366968e-05,
+      "novel_AP50": 0.00012223444566678888,
+      "novel_AR500": 0.0010526315789473682,
+      "TP": 20295,
+      "FP": 20081,
+      "FN": 18464,
+      "Precision@0.5": 0.5026500891618784,
+      "Recall@0.5": 0.5236203204417038,
+      "F1@0.5": 0.5129209578568269,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 40376,
+      "correctly_detected_objects": 20295,
+      "missed_objects": 18464,
+      "false_positive_objects": 20081,
+      "object_detection_rate": 0.5236203204417038,
+      "mean_pipeline_ms": 2886.7054418756297,
+      "median_pipeline_ms": 2561.7738240398467,
+      "p95_pipeline_ms": 5672.869334957794,
+      "fps_from_pipeline_mean": 0.34641567009007074,
+      "mean_tiles": 47.29197080291971
+    },
+    {
+      "condition": "train_overlap_20__eval_overlap_10",
+      "train_overlap": 0.2,
+      "eval_overlap": 0.1,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.1546117563026215,
+      "all_AP50": 0.27189025727766336,
+      "all_AR500": 0.27254231274662843,
+      "base_AP": 0.2207324948594734,
+      "base_AP50": 0.3882574946808046,
+      "base_AR500": 0.3892231262067351,
+      "novel_AP": 0.00033003300330033004,
+      "novel_AP50": 0.0003667033370003667,
+      "novel_AR500": 0.00028708133971291867,
+      "TP": 19843,
+      "FP": 15162,
+      "FN": 18916,
+      "Precision@0.5": 0.5668618768747322,
+      "Recall@0.5": 0.5119585128615289,
+      "F1@0.5": 0.5380131229325958,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 35005,
+      "correctly_detected_objects": 19843,
+      "missed_objects": 18916,
+      "false_positive_objects": 15162,
+      "object_detection_rate": 0.5119585128615289,
+      "mean_pipeline_ms": 1245.5363869817884,
+      "median_pipeline_ms": 1149.9908714322373,
+      "p95_pipeline_ms": 2323.6289890191983,
+      "fps_from_pipeline_mean": 0.8028669498955565,
+      "mean_tiles": 22.740875912408757
+    },
+    {
+      "condition": "train_overlap_20__eval_overlap_20",
+      "train_overlap": 0.2,
+      "eval_overlap": 0.2,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.1580805499639161,
+      "all_AP50": 0.273502722232891,
+      "all_AR500": 0.2753246130106189,
+      "base_AP": 0.22580626440303114,
+      "base_AP50": 0.39068930875806873,
+      "base_AR500": 0.3932115114095649,
+      "novel_AP": 5.3882939314339604e-05,
+      "novel_AP50": 6.735367414292448e-05,
+      "novel_AR500": 0.00025518341307814995,
+      "TP": 19995,
+      "FP": 15672,
+      "FN": 18764,
+      "Precision@0.5": 0.5606022373622677,
+      "Recall@0.5": 0.5158801826672514,
+      "F1@0.5": 0.5373122295971837,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 35667,
+      "correctly_detected_objects": 19995,
+      "missed_objects": 18764,
+      "false_positive_objects": 15672,
+      "object_detection_rate": 0.5158801826672514,
+      "mean_pipeline_ms": 1469.295767527864,
+      "median_pipeline_ms": 1350.1036840025336,
+      "p95_pipeline_ms": 2881.278693309286,
+      "fps_from_pipeline_mean": 0.6805981628072959,
+      "mean_tiles": 26.23905109489051
+    },
+    {
+      "condition": "train_overlap_20__eval_overlap_30",
+      "train_overlap": 0.2,
+      "eval_overlap": 0.3,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.15939906788435454,
+      "all_AP50": 0.27500547381455065,
+      "all_AR500": 0.2778081217490633,
+      "base_AP": 0.22749068699583483,
+      "base_AP50": 0.39251135580296487,
+      "base_AR500": 0.3966363461760371,
+      "novel_AP": 0.0005186232909005186,
+      "novel_AP50": 0.0008250825082508251,
+      "novel_AR500": 0.0005422647527910685,
+      "TP": 20025,
+      "FP": 16240,
+      "FN": 18734,
+      "Precision@0.5": 0.552185302633393,
+      "Recall@0.5": 0.5166541964446967,
+      "F1@0.5": 0.5338291746641075,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 36265,
+      "correctly_detected_objects": 20025,
+      "missed_objects": 18734,
+      "false_positive_objects": 16240,
+      "object_detection_rate": 0.5166541964446967,
+      "mean_pipeline_ms": 1685.8104503948077,
+      "median_pipeline_ms": 1564.2998004914261,
+      "p95_pipeline_ms": 3313.462124165379,
+      "fps_from_pipeline_mean": 0.5931864995651234,
+      "mean_tiles": 29.425182481751825
+    },
+    {
+      "condition": "train_overlap_20__eval_overlap_40",
+      "train_overlap": 0.2,
+      "eval_overlap": 0.4,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.15233250667680398,
+      "all_AP50": 0.26798468938664044,
+      "all_AR500": 0.274906363449306,
+      "base_AP": 0.21757144018975996,
+      "base_AP50": 0.38277286935424054,
+      "base_AR500": 0.3924773066363976,
+      "novel_AP": 0.00010832847990681421,
+      "novel_AP50": 0.00014560279557367502,
+      "novel_AR500": 0.0005741626794258373,
+      "TP": 20183,
+      "FP": 18737,
+      "FN": 18576,
+      "Precision@0.5": 0.5185765673175745,
+      "Recall@0.5": 0.5207306690059083,
+      "F1@0.5": 0.5196513858314344,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 38920,
+      "correctly_detected_objects": 20183,
+      "missed_objects": 18576,
+      "false_positive_objects": 18737,
+      "object_detection_rate": 0.5207306690059083,
+      "mean_pipeline_ms": 2355.736090528038,
+      "median_pipeline_ms": 2202.61414750712,
+      "p95_pipeline_ms": 4862.901358201634,
+      "fps_from_pipeline_mean": 0.42449576759502383,
+      "mean_tiles": 40.39051094890511
+    },
+    {
+      "condition": "train_overlap_20__eval_overlap_50",
+      "train_overlap": 0.2,
+      "eval_overlap": 0.5,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.1481474539708911,
+      "all_AP50": 0.2648490461045463,
+      "all_AR500": 0.2709662652249773,
+      "base_AP": 0.21151173540544926,
+      "base_AP50": 0.37817897675472667,
+      "base_AR500": 0.38688960650731546,
+      "novel_AP": 0.000297463956922008,
+      "novel_AP50": 0.00041254125412541255,
+      "novel_AR500": 0.0004784688995215311,
+      "TP": 20138,
+      "FP": 19527,
+      "FN": 18621,
+      "Precision@0.5": 0.5077020042858944,
+      "Recall@0.5": 0.5195696483397404,
+      "F1@0.5": 0.5135672753238805,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 39665,
+      "correctly_detected_objects": 20138,
+      "missed_objects": 18621,
+      "false_positive_objects": 19527,
+      "object_detection_rate": 0.5195696483397404,
+      "mean_pipeline_ms": 2845.2627310373423,
+      "median_pipeline_ms": 2531.2583635095507,
+      "p95_pipeline_ms": 5820.483444596175,
+      "fps_from_pipeline_mean": 0.3514613919802809,
+      "mean_tiles": 47.29197080291971
+    },
+    {
+      "condition": "train_overlap_30__eval_overlap_10",
+      "train_overlap": 0.3,
+      "eval_overlap": 0.1,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.15736723882526485,
+      "all_AP50": 0.2771928354022202,
+      "all_AR500": 0.27119920024205535,
+      "base_AP": 0.2247873567376485,
+      "base_AP50": 0.3959544041813895,
+      "base_AR500": 0.38724971189739954,
+      "novel_AP": 5.3630363036303635e-05,
+      "novel_AP50": 8.250825082508251e-05,
+      "novel_AR500": 0.0004146730462519936,
+      "TP": 20200,
+      "FP": 15430,
+      "FN": 18559,
+      "Precision@0.5": 0.5669379736177379,
+      "Recall@0.5": 0.5211692768131273,
+      "F1@0.5": 0.5430910484076947,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 35630,
+      "correctly_detected_objects": 20200,
+      "missed_objects": 18559,
+      "false_positive_objects": 15430,
+      "object_detection_rate": 0.5211692768131273,
+      "mean_pipeline_ms": 1223.0556834946697,
+      "median_pipeline_ms": 1132.2136315284297,
+      "p95_pipeline_ms": 2292.4171881517386,
+      "fps_from_pipeline_mean": 0.8176242615075981,
+      "mean_tiles": 22.740875912408757
+    },
+    {
+      "condition": "train_overlap_30__eval_overlap_20",
+      "train_overlap": 0.3,
+      "eval_overlap": 0.2,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.16051523936271322,
+      "all_AP50": 0.2794362353755894,
+      "all_AR500": 0.27420161489733796,
+      "base_AP": 0.2286709925832254,
+      "base_AP50": 0.39848740838662705,
+      "base_AR500": 0.39138849975081086,
+      "novel_AP": 0.0014851485148514852,
+      "novel_AP50": 0.0016501650165016502,
+      "novel_AR500": 0.0007655502392344498,
+      "TP": 20313,
+      "FP": 16090,
+      "FN": 18446,
+      "Precision@0.5": 0.5580034612531934,
+      "Recall@0.5": 0.524084728708171,
+      "F1@0.5": 0.5405124930150873,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 36403,
+      "correctly_detected_objects": 20313,
+      "missed_objects": 18446,
+      "false_positive_objects": 16090,
+      "object_detection_rate": 0.524084728708171,
+      "mean_pipeline_ms": 1445.020275800166,
+      "median_pipeline_ms": 1334.4070144812576,
+      "p95_pipeline_ms": 2858.1445856776545,
+      "fps_from_pipeline_mean": 0.6920318121116049,
+      "mean_tiles": 26.23905109489051
+    },
+    {
+      "condition": "train_overlap_30__eval_overlap_30",
+      "train_overlap": 0.3,
+      "eval_overlap": 0.3,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.1615430156393882,
+      "all_AP50": 0.28078992095948496,
+      "all_AR500": 0.27486857421966954,
+      "base_AP": 0.23076650978387536,
+      "base_AP50": 0.4011076581141822,
+      "base_AR500": 0.3925463568825081,
+      "novel_AP": 2.1529302251492115e-05,
+      "novel_AP50": 4.8534265191225004e-05,
+      "novel_AR500": 0.00028708133971291867,
+      "TP": 20415,
+      "FP": 16668,
+      "FN": 18344,
+      "Precision@0.5": 0.5505218024431681,
+      "Recall@0.5": 0.5267163755514848,
+      "F1@0.5": 0.5383560560111812,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 37083,
+      "correctly_detected_objects": 20415,
+      "missed_objects": 18344,
+      "false_positive_objects": 16668,
+      "object_detection_rate": 0.5267163755514848,
+      "mean_pipeline_ms": 1652.90225415901,
+      "median_pipeline_ms": 1542.1103949774988,
+      "p95_pipeline_ms": 3366.9910619268185,
+      "fps_from_pipeline_mean": 0.6049964524422504,
+      "mean_tiles": 29.425182481751825
+    },
+    {
+      "condition": "train_overlap_30__eval_overlap_40",
+      "train_overlap": 0.3,
+      "eval_overlap": 0.4,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.15547573895717676,
+      "all_AP50": 0.27270535811465685,
+      "all_AR500": 0.2747629925298196,
+      "base_AP": 0.22208698210289748,
+      "base_AP50": 0.3895437223420133,
+      "base_AR500": 0.3922724910371313,
+      "novel_AP": 4.95049504950495e-05,
+      "novel_AP50": 8.250825082508251e-05,
+      "novel_AR500": 0.0005741626794258373,
+      "TP": 20510,
+      "FP": 19115,
+      "FN": 18249,
+      "Precision@0.5": 0.517602523659306,
+      "Recall@0.5": 0.5291674191800614,
+      "F1@0.5": 0.5233210859359053,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 39625,
+      "correctly_detected_objects": 20510,
+      "missed_objects": 18249,
+      "false_positive_objects": 19115,
+      "object_detection_rate": 0.5291674191800614,
+      "mean_pipeline_ms": 2305.108096214338,
+      "median_pipeline_ms": 2153.3658939879388,
+      "p95_pipeline_ms": 4628.8882592984,
+      "fps_from_pipeline_mean": 0.4338191348346278,
+      "mean_tiles": 40.39051094890511
+    },
+    {
+      "condition": "train_overlap_30__eval_overlap_50",
+      "train_overlap": 0.3,
+      "eval_overlap": 0.5,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.14988251054261845,
+      "all_AP50": 0.26868638929317606,
+      "all_AR500": 0.2696234040294463,
+      "base_AP": 0.21408043148487885,
+      "base_AP50": 0.3837960981915162,
+      "base_AR500": 0.38505325661076056,
+      "novel_AP": 8.7361677344205e-05,
+      "novel_AP50": 9.706853038245001e-05,
+      "novel_AR500": 0.00028708133971291867,
+      "TP": 20440,
+      "FP": 19992,
+      "FN": 18319,
+      "Precision@0.5": 0.5055401662049861,
+      "Recall@0.5": 0.5273613870326892,
+      "F1@0.5": 0.5162202775567931,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 40432,
+      "correctly_detected_objects": 20440,
+      "missed_objects": 18319,
+      "false_positive_objects": 19992,
+      "object_detection_rate": 0.5273613870326892,
+      "mean_pipeline_ms": 2791.4473025190277,
+      "median_pipeline_ms": 2498.927083972376,
+      "p95_pipeline_ms": 5510.816435352899,
+      "fps_from_pipeline_mean": 0.35823710485151944,
+      "mean_tiles": 47.29197080291971
+    },
+    {
+      "condition": "train_overlap_40__eval_overlap_10",
+      "train_overlap": 0.4,
+      "eval_overlap": 0.1,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.1532664024364897,
+      "all_AP50": 0.27168513306087444,
+      "all_AR500": 0.27228491325464627,
+      "base_AP": 0.21870431136868915,
+      "base_AP50": 0.38783710744865046,
+      "base_AR500": 0.3879165394898421,
+      "novel_AP": 0.0005779482613575759,
+      "novel_AP50": 0.0006638594893972155,
+      "novel_AR500": 0.0024777853725222146,
+      "TP": 20460,
+      "FP": 16264,
+      "FN": 18299,
+      "Precision@0.5": 0.5571288530661148,
+      "Recall@0.5": 0.5278773962176527,
+      "F1@0.5": 0.5421088192043242,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 36724,
+      "correctly_detected_objects": 20460,
+      "missed_objects": 18299,
+      "false_positive_objects": 16264,
+      "object_detection_rate": 0.5278773962176527,
+      "mean_pipeline_ms": 1207.209323030679,
+      "median_pipeline_ms": 1121.0540345055051,
+      "p95_pipeline_ms": 2220.3928223927505,
+      "fps_from_pipeline_mean": 0.8283567571276841,
+      "mean_tiles": 22.740875912408757
+    },
+    {
+      "condition": "train_overlap_40__eval_overlap_20",
+      "train_overlap": 0.4,
+      "eval_overlap": 0.2,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.15675478263428727,
+      "all_AP50": 0.27465950988885773,
+      "all_AR500": 0.2751756536616115,
+      "base_AP": 0.2237345276549884,
+      "base_AP50": 0.39211731595219795,
+      "base_AR500": 0.3919856276798532,
+      "novel_AP": 0.00046871091931792,
+      "novel_AP50": 0.0005912957410638825,
+      "novel_AR500": 0.002619047619047619,
+      "TP": 20584,
+      "FP": 16917,
+      "FN": 18175,
+      "Precision@0.5": 0.5488920295458788,
+      "Recall@0.5": 0.5310766531644263,
+      "F1@0.5": 0.5398373983739837,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 37501,
+      "correctly_detected_objects": 20584,
+      "missed_objects": 18175,
+      "false_positive_objects": 16917,
+      "object_detection_rate": 0.5310766531644263,
+      "mean_pipeline_ms": 1425.4933253553506,
+      "median_pipeline_ms": 1319.3340775324032,
+      "p95_pipeline_ms": 2833.320822549284,
+      "fps_from_pipeline_mean": 0.7015115274220716,
+      "mean_tiles": 26.23905109489051
+    },
+    {
+      "condition": "train_overlap_40__eval_overlap_30",
+      "train_overlap": 0.4,
+      "eval_overlap": 0.3,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.15716240191750128,
+      "all_AP50": 0.2753578765371655,
+      "all_AR500": 0.2749447721992404,
+      "base_AP": 0.22424427651568482,
+      "base_AP50": 0.39306455514529315,
+      "base_AR500": 0.391924813716911,
+      "novel_AP": 0.000638027855073089,
+      "novel_AP50": 0.0007089597848673756,
+      "novel_AR500": 0.001991341991341991,
+      "TP": 20635,
+      "FP": 17474,
+      "FN": 18124,
+      "Precision@0.5": 0.5414731428271536,
+      "Recall@0.5": 0.5323924765860832,
+      "F1@0.5": 0.536894416402144,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 38109,
+      "correctly_detected_objects": 20635,
+      "missed_objects": 18124,
+      "false_positive_objects": 17474,
+      "object_detection_rate": 0.5323924765860832,
+      "mean_pipeline_ms": 1627.5858786135545,
+      "median_pipeline_ms": 1521.2785130133852,
+      "p95_pipeline_ms": 3145.6749091215897,
+      "fps_from_pipeline_mean": 0.6144069035864588,
+      "mean_tiles": 29.425182481751825
+    },
+    {
+      "condition": "train_overlap_40__eval_overlap_40",
+      "train_overlap": 0.4,
+      "eval_overlap": 0.4,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.15220935213583972,
+      "all_AP50": 0.26975594952278453,
+      "all_AR500": 0.2740309856713536,
+      "base_AP": 0.21731264165418582,
+      "base_AP50": 0.3852146954037107,
+      "base_AR500": 0.39065699837632084,
+      "novel_AP": 0.00030167659303218506,
+      "novel_AP50": 0.00035220913395687394,
+      "novel_AR500": 0.0019036226930963774,
+      "TP": 20680,
+      "FP": 19877,
+      "FN": 18079,
+      "Precision@0.5": 0.5098996474098183,
+      "Recall@0.5": 0.5335534972522511,
+      "F1@0.5": 0.5214584699177972,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 40557,
+      "correctly_detected_objects": 20680,
+      "missed_objects": 18079,
+      "false_positive_objects": 19877,
+      "object_detection_rate": 0.5335534972522511,
+      "mean_pipeline_ms": 2271.4352572375456,
+      "median_pipeline_ms": 2134.3913490418345,
+      "p95_pipeline_ms": 4598.47624376998,
+      "fps_from_pipeline_mean": 0.440250276477689,
+      "mean_tiles": 40.39051094890511
+    },
+    {
+      "condition": "train_overlap_40__eval_overlap_50",
+      "train_overlap": 0.4,
+      "eval_overlap": 0.5,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.14728544367172983,
+      "all_AP50": 0.26645649233902624,
+      "all_AR500": 0.27032191895197,
+      "base_AP": 0.21017352697305344,
+      "base_AP50": 0.38038189583005294,
+      "base_AR500": 0.38533099055437176,
+      "novel_AP": 0.000546582635308007,
+      "novel_AP50": 0.0006305508599640451,
+      "novel_AR500": 0.001967418546365915,
+      "TP": 20705,
+      "FP": 20836,
+      "FN": 18054,
+      "Precision@0.5": 0.49842324450542835,
+      "Recall@0.5": 0.5341985087334554,
+      "F1@0.5": 0.5156911581569117,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 41541,
+      "correctly_detected_objects": 20705,
+      "missed_objects": 18054,
+      "false_positive_objects": 20836,
+      "object_detection_rate": 0.5341985087334554,
+      "mean_pipeline_ms": 2747.804965151102,
+      "median_pipeline_ms": 2449.2592929746024,
+      "p95_pipeline_ms": 5461.582150211323,
+      "fps_from_pipeline_mean": 0.3639268480414184,
+      "mean_tiles": 47.29197080291971
+    },
+    {
+      "condition": "train_overlap_50__eval_overlap_10",
+      "train_overlap": 0.5,
+      "eval_overlap": 0.1,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.15272223830134404,
+      "all_AP50": 0.2691420806655108,
+      "all_AR500": 0.270197455939665,
+      "base_AP": 0.2181746261447772,
+      "base_AP50": 0.3844886866650155,
+      "base_AR500": 0.38599636562809275,
+      "novel_AP": 0.0,
+      "novel_AP50": 0.0,
+      "novel_AR500": 0.0,
+      "TP": 20170,
+      "FP": 15402,
+      "FN": 18589,
+      "Precision@0.5": 0.5670190037107837,
+      "Recall@0.5": 0.5203952630356821,
+      "F1@0.5": 0.5427076186247999,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 35572,
+      "correctly_detected_objects": 20170,
+      "missed_objects": 18589,
+      "false_positive_objects": 15402,
+      "object_detection_rate": 0.5203952630356821,
+      "mean_pipeline_ms": 1165.099819751633,
+      "median_pipeline_ms": 1091.596640064381,
+      "p95_pipeline_ms": 1995.2531374758105,
+      "fps_from_pipeline_mean": 0.8582955580691551,
+      "mean_tiles": 22.740875912408757
+    },
+    {
+      "condition": "train_overlap_50__eval_overlap_20",
+      "train_overlap": 0.5,
+      "eval_overlap": 0.2,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.15590636293811339,
+      "all_AP50": 0.27162329502517385,
+      "all_AR500": 0.2720681083826555,
+      "base_AP": 0.22272337562587627,
+      "base_AP50": 0.3880332786073913,
+      "base_AR500": 0.38866872626093646,
+      "novel_AP": 0.0,
+      "novel_AP50": 0.0,
+      "novel_AR500": 0.0,
+      "TP": 20261,
+      "FP": 16122,
+      "FN": 18498,
+      "Precision@0.5": 0.556880960888327,
+      "Recall@0.5": 0.5227431048272659,
+      "F1@0.5": 0.539272311091001,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 36383,
+      "correctly_detected_objects": 20261,
+      "missed_objects": 18498,
+      "false_positive_objects": 16122,
+      "object_detection_rate": 0.5227431048272659,
+      "mean_pipeline_ms": 1374.766022405616,
+      "median_pipeline_ms": 1279.5526755508035,
+      "p95_pipeline_ms": 2653.1114425277337,
+      "fps_from_pipeline_mean": 0.7273965050795795,
+      "mean_tiles": 26.23905109489051
+    },
+    {
+      "condition": "train_overlap_50__eval_overlap_30",
+      "train_overlap": 0.5,
+      "eval_overlap": 0.3,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.15485933843355676,
+      "all_AP50": 0.27176356430854487,
+      "all_AR500": 0.2723112124573131,
+      "base_AP": 0.2212276263336525,
+      "base_AP50": 0.38823366329792136,
+      "base_AR500": 0.38901601779616163,
+      "novel_AP": 0.0,
+      "novel_AP50": 0.0,
+      "novel_AR500": 0.0,
+      "TP": 20334,
+      "FP": 16601,
+      "FN": 18425,
+      "Precision@0.5": 0.5505347231623122,
+      "Recall@0.5": 0.5246265383523827,
+      "F1@0.5": 0.5372684757048116,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 36935,
+      "correctly_detected_objects": 20334,
+      "missed_objects": 18425,
+      "false_positive_objects": 16601,
+      "object_detection_rate": 0.5246265383523827,
+      "mean_pipeline_ms": 1570.0551772804126,
+      "median_pipeline_ms": 1480.3316150791943,
+      "p95_pipeline_ms": 2933.0092124757357,
+      "fps_from_pipeline_mean": 0.6369202907455522,
+      "mean_tiles": 29.425182481751825
+    },
+    {
+      "condition": "train_overlap_50__eval_overlap_40",
+      "train_overlap": 0.5,
+      "eval_overlap": 0.4,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.14874094144130587,
+      "all_AP50": 0.264584291024572,
+      "all_AR500": 0.2711803936786527,
+      "base_AP": 0.21242644089513693,
+      "base_AP50": 0.377876528095317,
+      "base_AR500": 0.3873185391581574,
+      "novel_AP": 0.0001414427157001414,
+      "novel_AP50": 0.00023573785950023574,
+      "novel_AR500": 0.00019138755980861245,
+      "TP": 20480,
+      "FP": 19045,
+      "FN": 18279,
+      "Precision@0.5": 0.5181530676786844,
+      "Recall@0.5": 0.5283934054026161,
+      "F1@0.5": 0.523223136273057,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 39525,
+      "correctly_detected_objects": 20480,
+      "missed_objects": 18279,
+      "false_positive_objects": 19045,
+      "object_detection_rate": 0.5283934054026161,
+      "mean_pipeline_ms": 2182.6248925472833,
+      "median_pipeline_ms": 2083.6094664991833,
+      "p95_pipeline_ms": 4164.986542367841,
+      "fps_from_pipeline_mean": 0.45816393069398503,
+      "mean_tiles": 40.39051094890511
+    },
+    {
+      "condition": "train_overlap_50__eval_overlap_50",
+      "train_overlap": 0.5,
+      "eval_overlap": 0.5,
+      "protocol_id": "738dce9e1a5440dab34195418a997a20",
+      "eval_split": "val",
+      "run_mode": "full",
+      "images": 548,
+      "threshold": 0.25,
+      "all_AP": 0.1446371353346506,
+      "all_AP50": 0.260207524378607,
+      "all_AR500": 0.26952562229954846,
+      "base_AP": 0.20662447904950088,
+      "base_AP50": 0.3717250348265814,
+      "base_AR500": 0.3850366032850693,
+      "novel_AP": 0.0,
+      "novel_AP50": 0.0,
+      "novel_AR500": 0.0,
+      "TP": 20406,
+      "FP": 20051,
+      "FN": 18353,
+      "Precision@0.5": 0.5043873742492029,
+      "Recall@0.5": 0.5264841714182512,
+      "F1@0.5": 0.5151989497071299,
+      "ground_truth_objects": 38759,
+      "predicted_objects": 40457,
+      "correctly_detected_objects": 20406,
+      "missed_objects": 18353,
+      "false_positive_objects": 20051,
+      "object_detection_rate": 0.5264841714182512,
+      "mean_pipeline_ms": 2634.03143869232,
+      "median_pipeline_ms": 2403.215624508448,
+      "p95_pipeline_ms": 5095.082325983093,
+      "fps_from_pipeline_mean": 0.37964618998490607,
+      "mean_tiles": 47.29197080291971
+    }
+  ]
+}
