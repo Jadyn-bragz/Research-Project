@@ -1,0 +1,42 @@
+{
+  "overlap_10": {
+    "train_overlap": 0.1,
+    "best_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_10_best.pt",
+    "last_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_10_last.pt",
+    "best_checkpoint_sha256": "74a2ae3f087e38a4e3e6838c6a07a79100423a8fa2fe2e5c9cea00c8c1a59830",
+    "training_yaml": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/runs/yolo_world_v2/20261008T163054Z_73692224/train_data/overlap_10/base_only.yaml",
+    "training_save_dir": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/runs/yolo_world_v2/20261008T163054Z_73692224/training/base_safe_overlap_10"
+  },
+  "overlap_20": {
+    "train_overlap": 0.2,
+    "best_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_20_best.pt",
+    "last_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_20_last.pt",
+    "best_checkpoint_sha256": "5f965ec863f94c9dafe233d7ac9f344b8573648ce146fa7bb217ef8965ab09ca",
+    "training_yaml": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/runs/yolo_world_v2/20261008T163054Z_73692224/train_data/overlap_20/base_only.yaml",
+    "training_save_dir": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/runs/yolo_world_v2/20261008T163054Z_73692224/training/base_safe_overlap_20"
+  },
+  "overlap_30": {
+    "train_overlap": 0.3,
+    "best_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_30_best.pt",
+    "last_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_30_last.pt",
+    "best_checkpoint_sha256": "0592caf06cbcda1c79ee67576427734b82eade68822ffcb4d750a9e6229a6fbd",
+    "training_yaml": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/runs/yolo_world_v2/20261008T163054Z_73692224/train_data/overlap_30/base_only.yaml",
+    "training_save_dir": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/runs/yolo_world_v2/20261008T163054Z_73692224/training/base_safe_overlap_30"
+  },
+  "overlap_40": {
+    "train_overlap": 0.4,
+    "best_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_40_best.pt",
+    "last_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_40_last.pt",
+    "best_checkpoint_sha256": "a02d41f0905228d6dbb3638d52b051822891ad4b60da0e67e4d5c649fd5cd44e",
+    "training_yaml": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/runs/yolo_world_v2/20261008T163054Z_73692224/train_data/overlap_40/base_only.yaml",
+    "training_save_dir": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/runs/yolo_world_v2/20261008T163054Z_73692224/training/base_safe_overlap_40"
+  },
+  "overlap_50": {
+    "train_overlap": 0.5,
+    "best_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_50_best.pt",
+    "last_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/weights/yolo_world_v2/20261008T163054Z_73692224/train_overlap_50_last.pt",
+    "best_checkpoint_sha256": "5d03bd3e80cfa3d3cadce6e8ee0ca843f0cd8e539dd8cccb48d124a3aba4affd",
+    "training_yaml": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/runs/yolo_world_v2/20261008T163054Z_73692224/train_data/overlap_50/base_only.yaml",
+    "training_save_dir": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/runs/yolo_world_v2/20261008T163054Z_73692224/training/base_safe_overlap_50"
+  }
+}
