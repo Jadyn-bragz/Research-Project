@@ -1,0 +1,160 @@
+{
+  "run_id": "20261029T124610Z_aca79a33",
+  "experiment": "Experiment 3 - Uncertainty-Aware Adaptive Computation",
+  "protocol_dataset_id": "738dce9e1a5440dab34195418a997a20",
+  "protocol_fingerprint": "158cb2c904016fa324c236b998393b1a94c176a4eabedb159c76bdeffc66c195",
+  "clearml_task_id": "7739767b79394eca9ecc807c8064133c",
+  "local_results_dir": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33",
+  "inventory_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33/local_inventory.json",
+  "sources": [
+    {
+      "key": "light",
+      "spec": "yolo_world_v2/20261002T170816Z_4390efe1::zero_shot__whole",
+      "folder": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261002T170816Z_4390efe1",
+      "source_clearml_task_id": "a8b5bdf06ddf4d43aaad0e80056265a0",
+      "source_run_mode": "full",
+      "mean_ms": 29.919802332114802,
+      "mean_tiles": 1.0
+    },
+    {
+      "key": "strong1",
+      "spec": "yolo_world_v2/20261002T170816Z_4390efe1::zero_shot__sliced_overlap_20",
+      "folder": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/yolo_world_v2/20261002T170816Z_4390efe1",
+      "source_clearml_task_id": "a8b5bdf06ddf4d43aaad0e80056265a0",
+      "source_run_mode": "full",
+      "mean_ms": 398.73179027729276,
+      "mean_tiles": 5.186131386861314
+    }
+  ],
+  "objects": {
+    "results": {
+      "budget_curves_calibration.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33/budget_curves_calibration.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33/budget_curves_calibration.csv",
+        "bytes": 2814,
+        "sha256": "3fe760728b9a5bbf12dcc63c82e2f5c80f9b6517b228e88cde31a69b26409004"
+      },
+      "budget_curves_policy_test.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33/budget_curves_policy_test.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33/budget_curves_policy_test.csv",
+        "bytes": 10535,
+        "sha256": "a2e2fcd522d4cb8e7e69afd76358fef52b8156c62273f209ef9e2968ed90a86d"
+      },
+      "config_and_protocol.json": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33/config_and_protocol.json",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33/config_and_protocol.json",
+        "bytes": 37356,
+        "sha256": "4ded548dcd6239aa602cd2042c0ff420d6276156fabf0dedb7e5bc03df55773f"
+      },
+      "figures/accuracy_vs_cost.png": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33/figures/accuracy_vs_cost.png",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33/figures/accuracy_vs_cost.png",
+        "bytes": 71568,
+        "sha256": "d9a9eff597069f65f48d2d79879ac09913d77ec5cc4ec9de2cf16099a92404d8"
+      },
+      "figures/budget_curve_all_F1.png": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33/figures/budget_curve_all_F1.png",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33/figures/budget_curve_all_F1.png",
+        "bytes": 84140,
+        "sha256": "4feb5e87f5edd244fac7b6eeba94b0b1adc32d6ad4c0f08d7ad80edb8381dce3"
+      },
+      "figures/budget_curve_novel_Recall.png": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33/figures/budget_curve_novel_Recall.png",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33/figures/budget_curve_novel_Recall.png",
+        "bytes": 89962,
+        "sha256": "2e2fbbdbbda1fb38a3896aadb3b9f725c5139066b70a2d3788376db316b84361"
+      },
+      "image_split.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33/image_split.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33/image_split.csv",
+        "bytes": 37284,
+        "sha256": "152e4f93dd4f570e1cd18e9f3b72ec1174f46e21805e7b01dc0059274c31aca3"
+      },
+      "paired_bootstrap.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33/paired_bootstrap.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33/paired_bootstrap.csv",
+        "bytes": 1559,
+        "sha256": "bd247bcfa916b2ee2ba48f61e5129adeff5d1fdb8fd2af06fa83e471819a5b69"
+      },
+      "per_image_decisions.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33/per_image_decisions.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33/per_image_decisions.csv",
+        "bytes": 120705,
+        "sha256": "7b8b75e00835b3bdc544dcd49b8c7755ed66fb1949a3b1b905315301b7e37a91"
+      },
+      "policies_policy_test.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33/policies_policy_test.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33/policies_policy_test.csv",
+        "bytes": 3948,
+        "sha256": "aaea0def5f2fcafe6ff508592580c46045ee0bc1b493c466200fa0fd5234df16"
+      },
+      "signal_selection_calibration.csv": {
+        "local_path": "/home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33/signal_selection_calibration.csv",
+        "file_uri": "file:///home/sagemaker-user/SageMaker_VisDrone_OVD_2026/results/exp3_adaptive_computation/20261029T124610Z_aca79a33/signal_selection_calibration.csv",
+        "bytes": 249,
+        "sha256": "2049816087f13506c9e9eaa3d7f5c67d0a6167c21c37079bd033e0219ec4b685"
+      }
+    }
+  },
+  "headline_metrics": {
+    "signal": "n_band",
+    "threshold": 19.000000796599323,
+    "light_only|all_F1": 0.30393394520454464,
+    "light_only|all_Recall": 0.195651218976499,
+    "light_only|novel_Recall": 0.07073643410852713,
+    "light_only|all_AP": 0.11405198182270933,
+    "light_only|novel_AP": 0.07381490941854814,
+    "light_only|mean_ms": 29.90235585101355,
+    "light_only|strong_fraction": 0.0,
+    "light_only|cost_relative_to_strong1": 0.07502812777239405,
+    "strong_only_strong1|all_F1": 0.319952774498229,
+    "strong_only_strong1|all_Recall": 0.21427630133977596,
+    "strong_only_strong1|novel_Recall": 0.07848837209302326,
+    "strong_only_strong1|all_AP": 0.1185312890410466,
+    "strong_only_strong1|novel_AP": 0.06464311661357657,
+    "strong_only_strong1|mean_ms": 398.548607553231,
+    "strong_only_strong1|strong_fraction": 1.0,
+    "strong_only_strong1|cost_relative_to_strong1": 1.0,
+    "adaptive_uncertainty|all_F1": 0.3201430510944071,
+    "adaptive_uncertainty|all_Recall": 0.21234350977377553,
+    "adaptive_uncertainty|novel_Recall": 0.07170542635658915,
+    "adaptive_uncertainty|all_AP": 0.11833277377149819,
+    "adaptive_uncertainty|novel_AP": 0.06986082540037584,
+    "adaptive_uncertainty|mean_ms": 235.067920191309,
+    "adaptive_uncertainty|strong_fraction": 0.4072948328267477,
+    "adaptive_uncertainty|cost_relative_to_strong1": 0.5898099146160305,
+    "size_prior_same_fraction|all_F1": 0.31415884886321904,
+    "size_prior_same_fraction|all_Recall": 0.2066769163189106,
+    "size_prior_same_fraction|novel_Recall": 0.08333333333333333,
+    "size_prior_same_fraction|all_AP": 0.1191942408642663,
+    "size_prior_same_fraction|novel_AP": 0.073496167944786,
+    "size_prior_same_fraction|mean_ms": 172.4052390912422,
+    "size_prior_same_fraction|strong_fraction": 0.4072948328267477,
+    "size_prior_same_fraction|cost_relative_to_strong1": 0.4325827159444169,
+    "oracle_same_fraction|all_F1": 0.32418009254568175,
+    "oracle_same_fraction|all_Recall": 0.21080606193718426,
+    "oracle_same_fraction|novel_Recall": 0.08042635658914729,
+    "oracle_same_fraction|all_AP": 0.12365806841579602,
+    "oracle_same_fraction|novel_AP": 0.08570517053054472,
+    "oracle_same_fraction|mean_ms": 182.92417247398575,
+    "oracle_same_fraction|strong_fraction": 0.4072948328267477,
+    "oracle_same_fraction|cost_relative_to_strong1": 0.45897581626741474,
+    "oracle_unbounded|all_F1": 0.32372325683577247,
+    "oracle_unbounded|all_Recall": 0.21036679112672962,
+    "oracle_unbounded|novel_Recall": 0.07945736434108527,
+    "oracle_unbounded|all_AP": 0.1226265328809845,
+    "oracle_unbounded|novel_AP": 0.08424148323344322,
+    "oracle_unbounded|mean_ms": 169.03665018216887,
+    "oracle_unbounded|strong_fraction": 0.3495440729483283,
+    "oracle_unbounded|cost_relative_to_strong1": 0.42413057523878556,
+    "random_same_fraction|all_F1": 0.3106877112585134,
+    "random_same_fraction|all_Recall": 0.2033108280254777,
+    "random_same_fraction|novel_Recall": 0.07372868217054264,
+    "random_same_fraction|all_AP": 0.11507679076277351,
+    "random_same_fraction|novel_AP": 0.07011015915974231,
+    "random_same_fraction|mean_ms": 192.42778596453573,
+    "random_same_fraction|strong_fraction": 0.40729483282674767,
+    "random_same_fraction|cost_relative_to_strong1": 0.4828213731466485,
+    "p_random_at_least_as_good": 0.0
+  }
+}
